@@ -1,0 +1,21 @@
+[project]
+name = "interface"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "langchain",
+    "langchain-core",
+    "langchain-groq",
+    "python-dotenv",
+    "langchain-huggingface",
+    "pypdf",
+    "sentence-transformers",
+    "langchain-community",
+    "langchain-text-splitters",
+    "faiss-cpu",
+    "pytesseract",
+    "pillow",
+    "streamlit>=1.58.0",
+]
